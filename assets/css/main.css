@@ -50,7 +50,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+#header
+{
+	position: sticky !important; 
+}
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -3431,6 +3434,7 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 				visibility: visible;
+
 			}
 
 		body.is-preload #intro {
